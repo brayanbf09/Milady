@@ -20,7 +20,7 @@ document.getElementById('siBtn').addEventListener('click', function() {
 
     // Mostrar el mensaje específico
     document.getElementById('messageContainer').style.display = 'block';
-    document.getElementById('messageContainer').innerHTML = '¡Oh Siii! jajaja';
+    document.getElementById('messageContainer').innerHTML = '¡Oh Siii! ¿Cuando vienes?🌝 ';
 
     // Mostrar otro gif después de 3 segundos
     setTimeout(function() {
@@ -96,7 +96,7 @@ document.getElementById('noBtn').addEventListener('click', function() {
         
         case 3:
            
-            document.getElementById('noBtn').innerHTML = '¿Eres positva?';
+            document.getElementById('noBtn').innerHTML = '¿Eres positiva?';
             document.getElementById('noBtn').style.backgroundColor = '#F1330A';
 
             // Hacer que el botón "Sí" crezca
